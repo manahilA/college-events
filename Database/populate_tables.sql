@@ -43,6 +43,8 @@ INSERT INTO
 VALUES
   (
     'manahil',
+    'Manahil',
+    'Awan',
     'password',
     'super admin',
     'manahil@gmail.com',
@@ -50,6 +52,8 @@ VALUES
   ),
   (
     'anotherstudent',
+    'Another',
+    'Student',
     'password',
     'admin',
     'anotherstudent@gmail.com',
@@ -57,6 +61,8 @@ VALUES
   ),
   (
     'janedoe',
+    'Jane',
+    'Doe',
     'password',
     'student',
     'janedoe@gmail.com',
