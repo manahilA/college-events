@@ -2,7 +2,8 @@ CREATE TABLE universities(
 	name VARCHAR(100) PRIMARY KEY,
 	google_place_id VARCHAR(500) UNIQUE NOT NULL,
 	uni_description VARCHAR(10000),
-	no_of_students INT
+	no_of_students INT,
+	image_url VARCHAR(255)
 );
 
 CREATE TABLE contacts(
