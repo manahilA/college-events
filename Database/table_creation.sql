@@ -19,7 +19,7 @@ CREATE TABLE users(
 	first_name VARCHAR(50),
 	last_name VARCHAR (50),
 	password VARCHAR(255) NOT NULL,
-	role_type ENUM('super admin', 'admin', 'student') DEFAULT 'student',
+	role_type VARCHAR(100) NOT NULL,
 	email VARCHAR(100) NOT NULL,
 	university VARCHAR(100) NOT NULL,
 	FOREIGN KEY (email) REFERENCES contacts(email),
