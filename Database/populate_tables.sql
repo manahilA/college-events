@@ -3,14 +3,16 @@ INSERT INTO
 VALUES
   (
     'University of Central Florida',
-    'ChIJZ9k0fGBo54gRMENVJ4UT2kM',
+    28.603568174040756,
+    -81.20021994046058',
     'The University of Central Florida (UCF) is a metropolitan research university built to make a better future for our students and society.',
     70406,
     'https://www.ucf.edu/news/files/2021/09/ucf-2022-rankings.jpg'
   ),
   (
     'University of Florida',
-    'ChIJdZLk-wyj6IgRhpg9FN7gbyA',
+    29.64509812399473,
+    -82.3550177679679,
     'The University of Florida is a public land-grant research university located in Gainesville, Florida. It is a senior member of the State University System of Florida and traces its origins back to 1853.',
     61112,
     'https://storage.googleapis.com/collegetuitioncompare/images/webp/colleges/134130-university-of-florida.webp'
@@ -97,7 +99,8 @@ INSERT INTO
     start_time,
     end_time,
     privacy_level,
-    google_place_id,
+    latitude,
+    longitude,
     contact,
     university,
     rso
@@ -110,7 +113,8 @@ VALUES
     '2022-04-18 13:00:00.000',
     '2022-04-18 14:00:00.000',
     'rso event',
-    'ChIJV-4yi1xo54gRWdygEqm1dkI',
+    28.603568174040756,
+    -81.20021994046058',
     'anotherstudent@gmail.com',
     'University of Central Florida',
     1
