@@ -4,7 +4,7 @@ VALUES
   (
     'University of Central Florida',
     28.603568174040756,
-    -81.20021994046058',
+    -81.20021994046058,
     'The University of Central Florida (UCF) is a metropolitan research university built to make a better future for our students and society.',
     70406,
     'https://www.ucf.edu/news/files/2021/09/ucf-2022-rankings.jpg'
@@ -114,7 +114,7 @@ VALUES
     '2022-04-18 14:00:00.000',
     'rso event',
     28.603568174040756,
-    -81.20021994046058',
+    -81.20021994046058,
     'anotherstudent@gmail.com',
     'University of Central Florida',
     1
