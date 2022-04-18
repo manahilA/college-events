@@ -1,7 +1,6 @@
 CREATE TABLE universities(
 	name VARCHAR(100) PRIMARY KEY,
-	latitude FLOAT(23,19) NOT NULL,
-	longitude FLOAT(23,19) NOT NULL,,
+	location VARCHAR(10000),
 	uni_description VARCHAR(10000),
 	no_of_students INT,
 	image_url VARCHAR(255)
@@ -53,8 +52,7 @@ CREATE TABLE events(
   start_time DATETIME NOT NULL,
   end_time DATETIME NOT NULL,
   privacy_level ENUM('public', 'private', 'rso event') DEFAULT 'public',
-  latitude FLOAT(23,19) NOT NULL,
-  longitude FLOAT(23,19) NOT NULL,
+  location VARCHAR(10000),
   created_at TIMESTAMP DEFAULT NOW(),
   contact VARCHAR(100) NOT NULL,
   university VARCHAR(100) NOT NULL,
