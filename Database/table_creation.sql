@@ -53,6 +53,7 @@ CREATE TABLE events(
   end_time DATETIME NOT NULL,
   privacy_level ENUM('public', 'private', 'rso event') DEFAULT 'public',
   location VARCHAR(10000),
+  super_admin_approved BIT DEFAULT 1 NOT NULL,
   created_at TIMESTAMP DEFAULT NOW(),
   contact VARCHAR(100) NOT NULL,
   university VARCHAR(100) NOT NULL,
